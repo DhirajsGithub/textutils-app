@@ -1,0 +1,14 @@
+props ---> properties. properties of component which we tell us what should be include in the components 
+props are read only they can't be changed when they are Setting
+propTypes --> help to avoid errors
+
+import {react, setState} from 'react'
+const [count, setCount] = setState(0)
+intial value of count = 0
+we can't change value of count = 1
+we have to use setCount function, when any function is triggle we can update the value of count as setCount
+let total = 0
+as setCount(total++)
+
+using of style:
+style {{color:'white', margin:'4px'}}   first {} ==> CSS, second {} ==> jacascript object

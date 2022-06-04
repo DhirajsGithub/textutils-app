@@ -1,0 +1,34 @@
+Extensions used for VS code 
+Thunder Client ---> Alternative for Postman
+ES7 React/Redux/GraphQL/React-Native snippets --->for shortcuts
+Bracket pair colorizer --->
+Auto Rename Tag ---> changes the name of closing tag as well if we change name
+Live Server ---->
+Prettier ---> Code formatter
+
+Chrome extensions:
+React developer tool
+Json vue. --> to copy the json format of API
+
+Setting up the environment/ Tools:
+node js install --> helps to run javascritp in the OS
+npm install  --> package manager which got install as you install node js  
+
+building a react app
+npx create-react-app my-app
+cd my-app
+npm start
+
+changes in Setting
+seatch for emmet > Emmet: Include Languages then add item javascritp it's value javascritpreact
+
+applying bootstrap:
+copy pasting jacascript script at the end of body and css link in the title tag of index.html in public
+you may be facing difficulties while using the code from bootstrap coz some tags don't have the closing 
+like img, li, input ... but in JSX all the tags must be closed hence close tags manually or use react bootstrap
+some attributes like class, for not changed to className or forHtml hence that's also the problem
+
+hence better use react bootstrap
+from: https://react-bootstrap.github.io/
+npm install react-bootstrap bootstrap@5.1.3
+script and css link must go in index.html or we can import it in component directly
